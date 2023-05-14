@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--APIS para fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <!--APIS para iconos-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Titulo de Pagina-->
+    <title>CENTRO BILINGÜE LOS PINOS</title>
+     <!--Icono de Browser-->
+     <link rel = "icon" type = "image/png" href = "imgs/escudo-sinBG.png">
+     <!-- For apple devices -->
+     <link rel = "apple-touch-icon" type = "image/png" href = "imgs/escudo-sinBG.png"/>
+    <!--Link a CSS de Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <!--Link a CSS local-->
+    <link rel="stylesheet" href="stylo.css">
+
+    <!--JavaScript para funcionalidad de Pagina (Libreria de Bootstrap)-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header id="social" class="text-center header-social-icon text-lg-start bg-primary text-white">
+        <div class="container">
+            <!-- Section: Social media -->
+            <section id="Social" class="d-flex justify-content-center justify-content-lg-between p-3">
+                <!-- Left -->
+                <div class="me-4 d-lg-block">
+                    <span class="mx-4"><i class="fa fa-phone mx-1"></i> +(507) 344-0133</span>
+                    <span class="mx-4"><i class="fa fa-whatsapp mx-1"></i> +(507) 6126-4196</span>
+                    <span class="mx-5"><i class="fa fa-calendar mx-1"></i> Lunes-Viernes: 6:30AM-2:30PM</span>
+                    <span class="mx-1">Nuestras redes:</span>
+                    <span class="mx-2"><a href="https://www.facebook.com/centrobilinguelospinos" target="_blank"
+                            class="text-reset"><i class="fa fa-facebook mx-1"></i></span></a>
+                    <span class="mx-2"><a href="https://www.instagram.com/centrobilinguelospinos/" target="_blank"
+                            class="me-4 text-reset">
+                            <i class="fa fa-instagram"></i>
+                        </a></span>
+                </div>
+                <!-- Left -->
+
+            </section>
+            <!-- Section: Social media -->
+        </div>
+        <!-- Footer -->
+    </header>
+
+    <!-- Empiezo de Barra de Navegacion Editar color cambiando data-bs-theme en siguiente linea define el tipo de navbar, mas info en bootstrap-->
+    <nav id="navbar" class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <!--class en la siguiente linea cambia la posicion de "CBLP"-->
+        <div class="container">
+            <a class="navbar-expand" href="index.html">Inicio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Nosotros
+                        </a>
+                        <ul class="dropdown-menu fw-bold">
+                            <li><a id="nav-qss" class="dropdown-item" href="bienvenidos.html">Quiénes somos</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="programas.html">Programas</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle navbar-brand" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Admisión
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="admision.html">Requisitos de Admisión</a></li>
+                            <li><a class="dropdown-item" href="calendario.html">Calendario Académico</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item fw-bolder" href="uniforme.html">Uniforme</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Año Escolar
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="horario.html">Horario de Clases y Lista de Útiles 2023</a></li>
+                            <li><a class="dropdown-item" href="maestros.html">Horario de Visitas a Maestros</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Sistema Académico
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="http://www.centrobilinguelospinos.com/sistemaweb/">S-Académico</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Fin de Barra de Navegacion-->
+
+   <!--Uniforme inicio-->
+   <main>
+    <div class="container">
+        <!--Fin de cabecera de section-->
+        
+            <div class="pt-2">
+                <h2 class="h2-responsive fw-bold text-center my-2 pt-3 text-decoration-underline">
+                    UNIFORMES
+                </h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h6 class="h6-responsive fw-bolder text-start text-primary mt-4">NIÑAS</h6>
+                    <ul class="my-3 justify-content-center d">
+                        <li>Falda color AZUL segun modelo, a la rodilla (modelo reglamentario)</li>
+                        <li>Suéter polo, reglamentario color blanco.</li>
+                        <li>Medias blancas, lisas, a media pierna.</li>
+                        <li>Zapatos color negro, cerrados, sintéticos o de cuero, modelo escolar. No se permiten crocs.</li>
+                        <li>Ganchos de cabello sencillos, pequeños y del color del uniforme.</li>
+                        <li>No se permiten <span class="text-danger">piercings</span>, tintes, uso de maquillaje uñas pintadas y prendas. (Se permite únicamente unos aretes pequeños)</li>
+                    </ul>
+                    </div>
+
+                    <div class="col-md-6">
+                        <img src="imgs/UNIFORME-NIÑA-1.jpg" class="img-fluid rounded mx-auto d-block uni" alt="uniforme de niñas">
+                    </div>
+                   
+                </div>
+
+                <div class="row mt-4">
+                   <div class="col-md-6">
+                    <h6 class="h6-responsive fw-bolder text-start text-primary mt-4">NIÑOS</h6>
+                    <ul class="my-3 justify-content-center d">
+                        <li>Pantalón largo celeste  (modelo estipulado)</li>
+                        <li>Suéter polo reglamentario de color blanco con logo del Colegio</li>
+                        <li>Medias blancas lisas.</li>
+                        <li>Corte de cabello tradicional: corto arriba, abajo (no tocar el cuello de la camisa), a los lados ( no tapar las orejas), no usar cerquillos.</li>
+                        <li>Zapatos color negro, cerrados, sintéticos o de cuero, modelo escolar.</li>
+                        <li>Correa negra de cuero o sintética, sin adornos.</li>
+                    </ul>
+                   </div>
+                   <div class="col-md-6">
+                    <img src="imgs/UNIFORME-DE-NIÑO.jpg" class="img-fluid rounded mx-auto d-block uni" alt="uniforme de NIÑOS">
+                   </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <h6 class="h6-responsive fw-bolder text-start text-primary mt-4">Educación Física</h6>
+                <ul class="my-3 justify-content-center d">
+                    <li>Suéter de Educación Física blanco con el logo del Colegio.</li>
+                    <li>Pantalón largo  azul con franja blanca a los lados.</li>
+                    <li>Medias blancas lisas.</li>
+                    <li>Zapatillas blancas.</li>
+                    <li>Las niñas deberán llevar el cabello recogido.</li>
+                </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="imgs/EDUCACION-FISICA.jpg" class="img-fluid rounded mx-auto d-block uni" alt="uniforme de EDUCACION-FISICA">
+                    </div>
+                </div>
+
+                <h6 class="h6-responsive fw-bolder text-center text-primary my-4">OPCIONAL ABRIGO DEBE SER COLOR AZUL NAVY</h6>
+                <img src="imgs/ABRIGO.jpg" class="img-fluid rounded mx-auto d-block uni" alt="ABRIGO">
+            </div>
+
+       
+</main>
+    <!--Uniforme fin-->
+     <!--Footer inicio-->
+     <main>
+        <!-- Remove the container if you want to extend the Footer to full width. -->
+
+        <footer class="text-white text-center text-lg-start bg-dark mt-lg-5">
+            <!-- Grid container -->
+            <div class=" p-4">
+                <!--Grid row-->
+                <div class="row mt-4">
+                    <!--Grid column-->
+                    <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+                        <h5 class="text-uppercase mb-4" >CENTRO BILINGÜE LOS PINOS</h5>
+                        <ul class="fa-ul" style="margin-left: 1.65em;">
+                            <li class="mb-3">
+                                <span><i class="material-icons">place</i></span><span class="ms-2"
+                                    style="font-size: 2.2vb;">Calle los Guayacanes, Nuevo Arraiján, Panama</span>
+                            </li>
+                            <li class="mb-3">
+                                <i class="material-icons">email</i>
+                                <span class="ms-2">lospinos@centrobilinguelospinos.com</span>
+                            </li>
+                            <li class="mb-3">
+                                <i class="material-icons">call</i><span class="ms-2">+(507) 344-0133</span>
+                            </li>
+                            <li class="mb-3">
+                                <span><i class="fa fa-whatsapp" style="font-size:24px"></i></span>
+                                <span class="ms-2">+(507) 6126-4196</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            SOBRE CBLP
+                        </h6>
+                        <p>
+                            <a href="bienvenidos.html" class="text-reset">Quiénes somos</a>
+                        </p>
+                        <p>
+                            <a href="programas.html" class="text-reset">Programas</a>
+                        </p>
+                        <p>
+                            <a href="horario.html" class="text-reset">Horarios</a>
+                        </p>
+                        <p>
+                            <a href="admision.html" class="text-reset">Admisión</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!--Grid column-->
+                    <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                        <h6 class="text-uppercase fw-bold">Ubicación</h6>
+                        <div class="google-map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3941.423880745371!2d-79.73064542579824!3d8.9330293904855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8faca3f81fef0c89%3A0x8a8cf7b0dc5442b3!2sCENTRO%20BILINGUE%20LOS%20PINOS!5e0!3m2!1sen!2sus!4v1683828767403!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+                </div>
+                <!--Grid row-->
+            </div>
+            <!-- Grid container -->
+
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                © 2021 Todos los derechos reservados a CBLP | Desarrollado por:
+                <a style="color: lawngreen; font-style: oblique;" href="">PT-Labs</a>
+            </div>
+            <!-- Copyright -->
+        </footer>
+        <!-- End of .container -->
+    </main>
+    <!--Fin de Footer-->
+</body>
+
+</html>

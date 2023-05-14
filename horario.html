@@ -1,0 +1,507 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--APIS para fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <!--APIS para iconos-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Titulo de Pagina-->
+    <title>CENTRO BILINGÜE LOS PINOS</title>
+    <!--Icono de Browser-->
+    <link rel="icon" type="image/png" href="imgs/escudo-sinBG.png">
+    <!-- For apple devices -->
+    <link rel="apple-touch-icon" type="image/png" href="imgs/escudo-sinBG.png" />
+    <!--Link a CSS de Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <!--Link a CSS local-->
+    <link rel="stylesheet" href="stylo.css">
+
+    <!--JavaScript para funcionalidad de Pagina (Libreria de Bootstrap)-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header id="social" class="text-center header-social-icon text-lg-start bg-primary text-white">
+        <div class="container">
+            <!-- Section: Social media -->
+            <section id="Social" class="d-flex justify-content-center justify-content-lg-between p-3">
+                <!-- Left -->
+                <div class="me-4 d-lg-block">
+                    <span class="mx-4"><i class="fa fa-phone mx-1"></i> +(507) 344-0133</span>
+                    <span class="mx-4"><i class="fa fa-whatsapp mx-1"></i> +(507) 6126-4196</span>
+                    <span class="mx-5"><i class="fa fa-calendar mx-1"></i> Lunes-Viernes: 6:30AM-2:30PM</span>
+                    <span class="mx-1">Nuestras redes:</span>
+                    <span class="mx-2"><a href="https://www.facebook.com/centrobilinguelospinos" target="_blank"
+                            class="text-reset"><i class="fa fa-facebook mx-1"></i></span></a>
+                    <span class="mx-2"><a href="https://www.instagram.com/centrobilinguelospinos/" target="_blank"
+                            class="me-4 text-reset">
+                            <i class="fa fa-instagram"></i>
+                        </a></span>
+                </div>
+                <!-- Left -->
+
+            </section>
+            <!-- Section: Social media -->
+        </div>
+        <!-- Footer -->
+    </header>
+
+    <!-- Empiezo de Barra de Navegacion Editar color cambiando data-bs-theme en siguiente linea define el tipo de navbar, mas info en bootstrap-->
+    <nav id="navbar" class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <!--class en la siguiente linea cambia la posicion de "CBLP"-->
+        <div class="container">
+            <a class="navbar-expand" href="index.html">Inicio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Nosotros
+                        </a>
+                        <ul class="dropdown-menu fw-bold">
+                            <li><a id="nav-qss" class="dropdown-item" href="bienvenidos.html">Quiénes somos</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="programas.html">Programas</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Admisión
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="admision.html">Requisitos de Admisión</a></li>
+                            <li><a class="dropdown-item" href="calendario.html">Calendario Académico</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="uniforme.html">Uniforme</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle navbar-brand" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Año Escolar
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item fw-bolder" href="horario.html">Horario de Clases y Lista de
+                                    Útiles 2023</a></li>
+                            <li><a class="dropdown-item" href="maestros.html">Horario de Visitas a Maestros</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Sistema Académico
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item"
+                                    href="http://www.centrobilinguelospinos.com/sistemaweb/">S-Académico</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Fin de Barra de Navegacion-->
+
+    <!--Inicio de authetication-->
+    <div id="login" class="my-4 py-4 mx-4">
+        <h1>Contenido Privado</h1>
+        <input type="password" id="password" placeholder="Ingrese contraseña"
+            onkeydown="if(event.keyCode === 13) submitPassword();">
+        <button onclick="submitPassword()">Enviar</button>
+    </div>
+    <!--fin de auth-->
+
+    <div id="content" style="display: none;">
+        <main>
+            <!--Cartas inicio-->
+            <main id="Programas" class="course">
+                <div class="container">
+                    <!--Cabecera de Section-->
+                    <h2 class="h2-responsive fw-bold text-center my-2 mt-5">Horario y Útiles 2023</h2>
+                    <!--Fin de Cabecera-->
+
+                    <div class="row mt-5">
+                        <div class="col-md-3">
+                            <div class="card box" style="width: 15rem;">
+                                <img src="imgs/prekin.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Prekinder</h5>
+                                    <a href="PDFs/MATERIALES-DE-PRE-KIN-2023.pdf" download class="card-link">Útiles</a>
+                                    <div class="row">
+                                        <a href="PDFs/prek.PNG" download="HORARIO-DE-PRE-KIN-2023"
+                                            class="card-link">Horario de Clases</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <div class="card box" style="width: 15rem;">
+                                <img src="imgs/kin.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Kinder</h5>
+                                    <a href="PDFs/MATERIALES-DE-KINDER-2023.pdf" download class="card-link">Útiles</a>
+                                    <div class="row">
+                                        <a href="PDFs/k.PNG" download="HORARIO-DE-KIN-2023" class="card-link">Horario de
+                                            Clases</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <div class="card box" style="width: 15rem;">
+                                <img src="imgs/primero.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">I GRADO</h5>
+                                    <a href="PDFs/MATERIALES-I-GRADO-2023.pdf" download class="card-link">Útiles</a>
+                                    <div class="row">
+                                        <a href="PDFs/1er.PNG" download="HORARIO-DE-I-GRADO-2023"
+                                            class="card-link">Horario de Clases</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <div class="card box" style="width: 15rem;">
+                                <img src="imgs/segundo.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">II GRADO</h5>
+                                    <a href="PDFs/MATERIALES-II-GRADO-2023.pdf" download class="card-link">Útiles</a>
+                                    <div class="row">
+                                        <a href="PDFs/2doA.PNG" download="HORARIO-DE-II-GRADO-2023"
+                                            class="card-link">Horario de Clases</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mt-5">
+                        <div class="col-md-3">
+                            <div class="card box" style="width: 15rem;">
+                                <img src="imgs/3ero.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">III GRADO</h5>
+                                    <a href="PDFs/MATERIALES-III-GRADO.pdf" download class="card-link">Útiles</a>
+                                    <div class="row">
+                                        <a href="PDFs/IIIero.PNG" download="HORARIO-DE-III-GRADO-2023"
+                                            class="card-link">Horario de Clases</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <div class="card box" style="width: 15rem;">
+                                <img src="imgs/cuarto.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">IV GRADO</h5>
+                                    <a href="PDFs/MATERIALES-IV-GRADO.pdf" download class="card-link">Útiles</a>
+                                    <div class="row">
+                                        <a href="PDFs/IVto.PNG" download="HORARIO-DE-IV-GRADO-2023"
+                                            class="card-link">Horario de Clases</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <div class="card box" style="width: 15rem;">
+                                <img src="imgs/quinto.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">V GRADO</h5>
+                                    <a href="PDFs/MATERIALES-V-GRADO.pdf" download class="card-link">Útiles</a>
+                                    <div class="row">
+                                        <a href="PDFs/Vto.PNG" download="HORARIO-DE-V-GRADO-2023"
+                                            class="card-link">Horario de Clases</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <div class="card box" style="width: 15rem;">
+                                <img src="imgs/sexto.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">VI GRADO</h5>
+                                    <a href="PDFs/MATERIALES-VI-GRADO.pdf" download class="card-link">Útiles</a>
+                                    <div class="row">
+                                        <a href="PDFs/VIto.PNG" download="HORARIO-DE-VI-GRADO-2023"
+                                            class="card-link">Horario de Clases</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </main>
+            <!--Cartas fin-->
+
+            <!--Utiles tablet inicio-->
+            <div class="d-flex justify-content-center">
+                <div id="carouselExampleControls" class="carousel slide bot">
+                    <div class="carousel-inner my-4">
+                        <div class="carousel-item active">
+                            <div class="row mt-4">
+                                <div class="col-md-6">
+                                    <div class="card box" style="width: 15rem;">
+                                        <img src="imgs/prekin.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Prekinder</h5>
+                                            <a href="PDFs/MATERIALES-DE-PRE-KIN-2023.pdf" download
+                                                class="card-link">Útiles</a>
+                                            <div class="row">
+                                                <a href="PDFs/prek.PNG" download="HORARIO-DE-PRE-KIN-2023"
+                                                    class="card-link">Horario de Clases</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="card box" style="width: 15rem;">
+                                        <img src="imgs/kin.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Kinder</h5>
+                                            <a href="PDFs/MATERIALES-DE-KINDER-2023.pdf" download
+                                                class="card-link">Útiles</a>
+                                            <div class="row">
+                                                <a href="PDFs/k.PNG" download="HORARIO-DE-KIN-2023"
+                                                    class="card-link">Horario de Clases</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row mt-4">
+                                <div class="col-md-6">
+                                    <div class="card box" style="width: 15rem;">
+                                        <img src="imgs/primero.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">I GRADO</h5>
+                                            <a href="PDFs/MATERIALES-I-GRADO-2023.pdf" download class="card-link">Útiles</a>
+                                            <div class="row">
+                                            <a href="PDFs/1er.PNG" download="HORARIO-DE-I-GRADO-2023" class="card-link">Horario de Clases</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="card box" style="width: 15rem;">
+                                        <img src="imgs/segundo.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">II GRADO</h5>
+                                            <a href="PDFs/MATERIALES-II-GRADO-2023.pdf" download class="card-link">Útiles</a>
+                                            <div class="row">
+                                            <a href="PDFs/2doA.PNG" download="HORARIO-DE-II-GRADO-2023" class="card-link">Horario de Clases</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row mt-4">
+                                <div class="col-md-6">
+                                    <div class="card box" style="width: 15rem;">
+                                        <img src="imgs/3ero.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">III GRADO</h5>
+                                            <a href="PDFs/MATERIALES-III-GRADO.pdf" download class="card-link">Útiles</a>
+                                            <div class="row">
+                                            <a href="PDFs/IIIero.PNG" download="HORARIO-DE-III-GRADO-2023" class="card-link">Horario de Clases</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="card box" style="width: 15rem;">
+                                        <img src="imgs/cuarto.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">IV GRADO</h5>
+                                            <a href="PDFs/MATERIALES-IV-GRADO.pdf" download class="card-link">Útiles</a>
+                                            <div class="row">
+                                            <a href="PDFs/IVto.PNG" download="HORARIO-DE-IV-GRADO-2023" class="card-link">Horario de Clases</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row mt-4">
+                                <div class="col-md-6">
+                                    <div class="card box" style="width: 15rem;">
+                                        <img src="imgs/quinto.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">V GRADO</h5>
+                                            <a href="PDFs/MATERIALES-V-GRADO.pdf" download class="card-link">Útiles</a>
+                                            <div class="row">
+                                            <a href="PDFs/Vto.PNG" download="HORARIO-DE-V-GRADO-2023" class="card-link">Horario de Clases</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="card box" style="width: 15rem;">
+                                        <img src="imgs/sexto.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">VI GRADO</h5>
+                                            <a href="PDFs/MATERIALES-VI-GRADO.pdf" download class="card-link">Útiles</a>
+                                            <div class="row">
+                                            <a href="PDFs/VIto.PNG" download="HORARIO-DE-VI-GRADO-2023" class="card-link">Horario de Clases</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"
+                            style="background-color: rgba(47, 79, 79, 0.5);"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" style="background-color: rgba(47, 79, 79, 0.5);"
+                            aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <!--Utiles tablet fin-->
+        </main>
+    </div>
+
+
+    <!--Footer inicio-->
+    <main>
+        <!-- Remove the container if you want to extend the Footer to full width. -->
+
+        <footer class="text-white text-center text-lg-start bg-dark mt-lg-5">
+            <!-- Grid container -->
+            <div class=" p-4">
+                <!--Grid row-->
+                <div class="row mt-4">
+                    <!--Grid column-->
+                    <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+                        <h5 class="text-uppercase mb-4">CENTRO BILINGÜE LOS PINOS</h5>
+                        <ul class="fa-ul" style="margin-left: 1.65em;">
+                            <li class="mb-3">
+                                <span><i class="material-icons">place</i></span><span class="ms-2"
+                                    style="font-size: 2.2vb;">Calle los Guayacanes, Nuevo Arraiján, Panama</span>
+                            </li>
+                            <li class="mb-3">
+                                <i class="material-icons">email</i>
+                                <span class="ms-2">lospinos@centrobilinguelospinos.com</span>
+                            </li>
+                            <li class="mb-3">
+                                <i class="material-icons">call</i><span class="ms-2">+(507) 344-0133</span>
+                            </li>
+                            <li class="mb-3">
+                                <span><i class="fa fa-whatsapp" style="font-size:24px"></i></span>
+                                <span class="ms-2">+(507) 6126-4196</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            SOBRE CBLP
+                        </h6>
+                        <p>
+                            <a href="bienvenidos.html" class="text-reset">Quiénes somos</a>
+                        </p>
+                        <p>
+                            <a href="programas.html" class="text-reset">Programas</a>
+                        </p>
+                        <p>
+                            <a href="horario.html" class="text-reset">Horarios</a>
+                        </p>
+                        <p>
+                            <a href="admision.html" class="text-reset">Admisión</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!--Grid column-->
+                    <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                        <h6 class="text-uppercase fw-bold">Ubicación</h6>
+                        <div class="google-map">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3941.423880745371!2d-79.73064542579824!3d8.9330293904855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8faca3f81fef0c89%3A0x8a8cf7b0dc5442b3!2sCENTRO%20BILINGUE%20LOS%20PINOS!5e0!3m2!1sen!2sus!4v1683828767403!5m2!1sen!2sus"
+                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+                </div>
+                <!--Grid row-->
+            </div>
+            <!-- Grid container -->
+
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                © 2021 Todos los derechos reservados a CBLP | Desarrollado por:
+                <a style="color: lawngreen; font-style: oblique;" href="">PT-Labs</a>
+            </div>
+            <!-- Copyright -->
+        </footer>
+        <!-- End of .container -->
+    </main>
+    <!--Fin de Footer-->
+
+
+    <!--Script para la contraseña-->
+    <script>
+        function submitPassword() {
+            const password = document.getElementById('password').value;
+            fetch('check_password.php', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded'
+                },
+                body: `password=${encodeURIComponent(password)}`
+            })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.success) {
+                        document.getElementById('login').style.display = 'none';
+                        document.getElementById('content').style.display = 'block';
+                    } else {
+                        alert('Contraseña Incorrecta. Intente de nuevo por favor.');
+                    }
+                });
+        }
+    </script>
+    <!--fin de script-->
+</body>
+
+</html>
