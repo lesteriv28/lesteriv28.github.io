@@ -50,7 +50,6 @@
         </div>
         <!-- Footer -->
     </header>
-
     <!-- Empiezo de Barra de Navegacion Editar color cambiando data-bs-theme en siguiente linea define el tipo de navbar, mas info en bootstrap-->
     <nav id="navbar" class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
         <!--class en la siguiente linea cambia la posicion de "CBLP"-->
@@ -119,104 +118,88 @@
         </div>
     </nav>
     <!--Fin de Barra de Navegacion-->
+    <!--Carrusel-->
+    <div class="split-container">
+        <div class="split-item split-item-left">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                        aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
+                        aria-label="Slide 6"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6"
+                        aria-label="Slide 7"></button>
 
-    <!--Carrusel de Imagenes-->
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
-                aria-label="Slide 4"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
-                aria-label="Slide 5"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
-                aria-label="Slide 6"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6"
-                aria-label="Slide 7"></button>
+                </div>
+                <style>
+                    .carousel-wrapper {
+                        height: 30vw;
+                        /* Adjust as needed */
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
 
+                    .carousel-item img {
+                        height: 100%;
+                        margin: auto;
+                        display: block;
+                    }
+                </style>
+
+                <div class="carousel-wrapper">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="3000">
+                            <img class="w-100" src="imgs/prepre.jpg" class="d-block w-100" alt="...">
+                        </div>
+
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <img class="h-100 w-100" src="imgs/desfile2.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-block">
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <img class="h-100 w-100" src="imgs/carrusel3.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <img class="h-100 w-100" src="imgs/carrusel.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <img class="h-100 w-100" src="imgs/etnia.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <img class="h-100 w-100" src="imgs/salon.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <img class="h-100 w-100" src="imgs/pijama.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="3000">
-                <img class="h-100 w-100" src="imgs/prepre.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-block">
-                    <h2><span>CENTRO BILINGÜE LOS PINOS</span></h2>
-                    <p>"Líderes Forjando Futuros Brillantes: Excelencia Bilingüe y Compromiso con Valores"</p>
-                </div>
-            </div>
-            <div class="carousel-item" data-bs-interval="3000">
-                <img class="h-100 w-100" src="imgs/carrusel.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-block">
-                    <h2><span>CENTRO BILINGÜE LOS PINOS</span></h2>
-                    <p>"Líderes Forjando Futuros Brillantes: Excelencia Bilingüe y Compromiso con Valores"</p>
-                </div>
-            </div>
-            <div class="carousel-item" data-bs-interval="3000">
-                <img class="h-100 w-100" src="imgs/carrusel3.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-block">
-                    <h2><span>CENTRO BILINGÜE LOS PINOS</span></h2>
-                    <p>"Líderes Forjando Futuros Brillantes: Excelencia Bilingüe y Compromiso con Valores"</p>
-                </div>
-            </div>
-            <div class="carousel-item" data-bs-interval="3000">
-                <img class="h-100 w-100" src="imgs/maestros.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-block">
-                    <h2><span>CENTRO BILINGÜE LOS PINOS</span></h2>
-                    <p>"Líderes Forjando Futuros Brillantes: Excelencia Bilingüe y Compromiso con Valores"</p>
-                </div>
-            </div>
-            <div class="carousel-item" data-bs-interval="3000">
-                <img class="h-100 w-100" src="imgs/pijama.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-block">
-                    <h2><span>CENTRO BILINGÜE LOS PINOS</span></h2>
-                    <p>"Líderes Forjando Futuros Brillantes: Excelencia Bilingüe y Compromiso con Valores"</p>
-                </div>
-            </div>
-            <div class="carousel-item" data-bs-interval="3000">
-                <img class="h-100 w-100" src="imgs/salon.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-block">
-                    <h2><span>CENTRO BILINGÜE LOS PINOS</span></h2>
-                    <p>"Líderes Forjando Futuros Brillantes: Excelencia Bilingüe y Compromiso con Valores"</p>
-                </div>
-            </div>
-            <div class="carousel-item" data-bs-interval="3000">
-                <img class="h-100 w-100" src="imgs/carrusel4.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-block">
-                    <h2><span>CENTRO BILINGÜE LOS PINOS</span></h2>
-                    <p>"Líderes Forjando Futuros Brillantes: Excelencia Bilingüe y Compromiso con Valores"</p>
-                </div>
+        <div class="split-item split-item-right pt-4">
+            <h2 class="h2-responsive fw-bold text-center my-5 pt-5">
+                CENTRO BILINGÜE LOS PINOS
+            </h2>
+            <div class="text-center fw-bold fst-italic">
+                <p>"Líderes Forjando Futuros Brillantes: Excelencia Bilingüe y Compromiso con Valores"</p>
             </div>
         </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-    </button>
-
     <!--Fin de Carrusel-->
-
     <!--About start-->
     <main id="about">
-        <div class="about mt-5 mb-5">
+        <div class="about mt-4 mb-5">
             <div class="container">
                 <!--Empiezo de cabecera de section-->
-                <h2 class="h2-responsive fw-bold text-center my-2">
-                    BIENVENIDOS
-                </h2>
-                <p class="text-center w-responsive mx-auto mb-1">Les damos la más cordial de las bienvenidas a este Año
-                    Escolar 2023, a ustedes queridos Padres de Familia. A continuación, los dejamos con información
-                    importante para este comienzo de año, y así puedan organizar sus tiempos.
-                    Ante todo, les pedimos puntualidad y compromiso con los horarios de entrada y de salida. Por otra
-                    parte, recuerde verificar y estar pendiente de las calificaciones de su acudido. Recuerde hacer sus
-                    pagos a travès de Banca en Linea o Tranferencia Bancaria y enviar su comprobante de pago.</p>
-                <!--Fin de cabecera de section-->
                 <div class="row">
                     <div class="col-md-6 align-items-stretch pt-5">
                         <img class="img-fluid" src="imgs/escudo.jpg" alt="">
@@ -254,7 +237,8 @@
             <!--Cabecera de Section-->
             <h2 class="h2-responsive fw-bold text-center my-2 mt-5">Programas</h2>
             <p class="text-center w-responsive mx-auto mb-1">Ofrecemos un programa de calidad en el idioma inglés desde
-                Preescolar, donde se inicia al estudiante en la adquisición como segunda lengua desarrollando habilidades de
+                Preescolar, donde se inicia al estudiante en la adquisición como segunda lengua desarrollando
+                habilidades de
                 comprensión, comunicación, lectura, escritura, tanto en el lenguaje social
                 como académico.
             </p>
