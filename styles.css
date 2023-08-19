@@ -15,6 +15,7 @@
   
   .split-item-right {
     position: relative;
+    z-index: 2;
   }
   
   .split-item-left:after {
@@ -26,7 +27,7 @@
     width: 14%;
     background: white;
     transform: skewX(-8deg);
-    z-index: 2;
+    z-index: 0;
   }
   
 .carousel.slide.carousel.slide.bot{
@@ -167,7 +168,14 @@ body {
         font-size: 38px;
     }
 }
-
+@media (max-width: 872px) {
+    .split-item-left:after {
+        right: -05%;
+        width: 10%;
+        bottom: -250%;
+        transform: skewX(-2.5deg);
+    }
+}
 @media(max-width: 577px) {
     .carousel-inner .carousel-caption h2 {
         font-size: 25px;
