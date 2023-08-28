@@ -17,7 +17,7 @@ This README provides an overview and instructions for a web page built with Boot
 
 1. Clone the repository to your local machine using the following command:
    ```
-   git clone <repository_url>
+   git clone 
    ```
 
 2. Open the project folder in any code editor.
